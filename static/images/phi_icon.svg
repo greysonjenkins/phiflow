@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="709" height="867" overflow="visible">
+  <switch>
+    <g>
+      <path d="M318 566.734V493.89c0-101.719 2-173.797 6.031-216.234 4.016-42.422 10.672-79.25 19.984-110.5 16.891-54.438 40.75-95.906 71.594-124.406S483.203 0 525.875 0c51.953 0 95.469 23.641 130.531 70.891C691.469 118.156 709 179.125 709 253.812c0 102.969-26.828 186.719-80.453 251.281S504.406 603.625 417 607v260h-99V607c-100.938-7.188-179.171-38.922-234.703-95.266C27.766 455.406 0 379.562 0 284.188c0-88.594 18.047-158.109 54.172-208.547C90.281 25.219 139.375 0 201.468 0c29.984 0 56.797 7.703 80.453 23.094s44.344 38.891 62.094 70.516l-31.094 19c-12.266-21.953-26.328-38.203-42.172-48.766S236.828 48 216.546 48c-35.938 0-61.5 17.422-76.718 52.25C124.609 135.094 117 194.938 117 279.812c0 83.609 17.109 149.906 51.359 198.891 34.234 48.985 84.109 78.328 149.641 88.031zM417 568c72.094 0 131.109-29.016 177.062-87.078S663 347.812 663 255.75c0-63.75-12.125-114.734-36.359-152.953-24.25-38.219-55.766-57.328-94.547-57.328-42.594 0-72.422 19.219-89.484 57.641C425.531 141.531 417 211.406 417 312.75V568z"/>
+    </g>
+  </switch>
+</svg>

@@ -1,23 +1,23 @@
 <script lang="ts">
-    import { page } from '$app/stores';
-    import Sandbox from '$lib/components/Sandbox.svelte';
-    import type { PageData } from './$types';
+	import { page } from '$app/stores';
+	import Sandbox from '$lib/components/Sandbox.svelte';
+	import type { PageData } from './$types';
 
-    export let data: PageData;
+	export let data: PageData;
 
-    $: tool = data.tool;
+	$: tool = data.tool;
 </script>
 
 <svelte:head>
-    <title>{tool.name}</title>
+	<title>{tool.name}</title>
 </svelte:head>
 
-<div class="text-center py-4">
-    <h1 class="text-xl font-semibold">{tool.name}</h1>
+<div class="pb-auto text-center">
+	<h1 class="text-xl font-semibold">{tool.name}</h1>
 </div>
 
 {#if tool.slug === 'sandbox'}
-    <Sandbox />
+	<Sandbox />
 {:else}
-    <p>Tool not found</p>
+	<p>Tool not found</p>
 {/if}

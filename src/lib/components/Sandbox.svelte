@@ -310,7 +310,7 @@
 			</Alert>
 		{/if}
 
-		<div class="mt-6 mb-6">
+		<div class="mb-6 mt-6">
 			<h2 class="mb-2 text-xl font-semibold">Dictionary</h2>
 			<div class="mb-2">
 				<Label for="variable" class="mb-2">Variable</Label>

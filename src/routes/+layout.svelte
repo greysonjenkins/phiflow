@@ -7,7 +7,7 @@
 </script>
 
 <div class="relative px-8">
-    <Navbar class="px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 start-0 border-b">
+    <Navbar class="px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 start-0 border-b" color="primary">
         <NavBrand href="/" class="ml-0 -ml-20">
             <img
                 src="/images/phi_icon.svg"
@@ -35,7 +35,7 @@
         </NavUl>
     </Navbar>
 
-    <main class="flex-grow">
+    <main class="flex-grow pt-10">
         <slot />
     </main>
 
@@ -43,11 +43,10 @@
         <div class="mx-auto max-w-screen-xl text-center">
             <FooterLinkGroup ulClass="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
                 <FooterLink href="/">About</FooterLink>
-                <FooterLink href="/">Privacy Policy</FooterLink>
-                <FooterLink href="/">Licensing</FooterLink>
-                <FooterLink href="/">Contact</FooterLink>
+                <FooterLink href="/privacy">Privacy Policy</FooterLink>
+                <FooterLink href="/contact">Contact</FooterLink>
             </FooterLinkGroup>
-            <FooterCopyright href="/" by="Greyson Jenkins" year={2024} />
+            <FooterCopyright href="/" by="Greyson Jenkins." year={2024} />
         </div>
     </Footer>
 </div>
